@@ -1,0 +1,122 @@
+/* src/styles/project.css */
+
+.project-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3f2fd;
+  padding: 30px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  color: #0d47a1;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.hero-image {
+  max-width: 350px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-form input,
+.project-form textarea,
+.project-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.member-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-field input {
+  flex: 1;
+}
+
+.remove-btn {
+  background: #e53935;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  align-self: flex-start;
+  background-color: #1976d2;
+  color: white;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0d47a1;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #388e3c;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 250px;
+  }
+}

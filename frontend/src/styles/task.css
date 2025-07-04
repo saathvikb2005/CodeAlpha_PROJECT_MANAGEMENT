@@ -1,0 +1,93 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h3 {
+  margin-bottom: 1rem;
+}
+
+.task-form {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+
+.task-form label {
+  font-weight: bold;
+  margin-top: 1rem;
+  display: block;
+}
+
+.task-form input,
+.task-form select,
+.task-form textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background-color: #2e7dff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.task-form button.danger {
+  background-color: #e74c3c;
+}
+
+.comments {
+  background: #fff;
+  border-top: 3px solid #2e7dff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.06);
+}
+
+.comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.comment-form textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  margin-top: 0.5rem;
+  padding: 10px 20px;
+  background: #2e7dff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
